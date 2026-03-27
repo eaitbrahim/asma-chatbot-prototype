@@ -8,6 +8,7 @@ import { TenderDetail } from './components/views/TenderDetail';
 import { ContractList } from './components/views/ContractList';
 import { PaymentList } from './components/views/PaymentList';
 import { AlertCenter } from './components/views/AlertCenter';
+import { LegalReferences } from './components/views/LegalReferences';
 
 function AppContent() {
   const { language, currentView } = useApp();
@@ -26,6 +27,8 @@ function AppContent() {
         return <PaymentList />;
       case 'alerts':
         return <AlertCenter />;
+      case 'legal':
+        return <LegalReferences />;
       default:
         return <Dashboard />;
     }

@@ -1,0 +1,276 @@
+{
+  "legalReferences": [
+    {
+      "id": "decret-2-22-431",
+      "name": "Décret n°2.22.431",
+      "nameAr": "المرسوم رقم 2.22.431",
+      "fullName": "Décret n°2.22.431 du 29 chaabane 1443 (2 avril 2022) relatif aux marchés publics",
+      "fullNameAr": "المرسوم رقم 2.22.431 الصادر في 29 شعبان 1443 (2 أبريل 2022) المتعلق بالصفقات العمومية",
+      "category": "marches_publics",
+      "year": 2022,
+      "summary": "Ce décret fixe les règles et procédures relatives à la passation, à l'exécution et au règlement des marchés publics.",
+      "summaryAr": "يحدد هذا المرسوم القواعد والإجراءات المتعلقة بإبرام وتنفيذ وتسوية الصفقات العمومية.",
+      "keyArticles": [
+        {
+          "number": "12-15",
+          "title": "Publication des avis",
+          "titleAr": "نشر الإعلانات",
+          "description": "Obligation de publication bilingue (français/arabe) des avis d'appel d'offres",
+          "descriptionAr": "إلزام نشر إعلانات طلبات العروض بلغتين (الفرنسية/العربية)"
+        },
+        {
+          "number": "16",
+          "title": "Caution provisoire",
+          "titleAr": "الضمان المؤقت",
+          "description": "La caution provisoire ne doit pas dépasser 2% du montant estimé",
+          "descriptionAr": "لا يجب أن يتجاوز الضمان المؤقت 2% من المبلغ المقدر"
+        },
+        {
+          "number": "18",
+          "title": "Complétude du DCE",
+          "titleAr": "اكتمال ملف طلب العروض",
+          "description": "Le dossier de consultation des entreprises doit être complet avant toute publication",
+          "descriptionAr": "يجب أن يكون ملف طلب العروض كاملاً قبل أي نشر"
+        },
+        {
+          "number": "20",
+          "title": "Visite de site",
+          "titleAr": "زيارة الموقع",
+          "description": "La visite de site doit être programmée dans le tiers du délai de publication",
+          "descriptionAr": "يجب جدولة زيارة الموقع في ثلث المهلة المحددة للنشر"
+        },
+        {
+          "number": "35",
+          "title": "Commission d'ouverture des plis",
+          "titleAr": "لجنة فتح الأظرفة",
+          "description": "Composition et fonctionnement de la commission, établissement du PV",
+          "descriptionAr": "تركيبة وسير اللجنة، إعداد المحضر"
+        },
+        {
+          "number": "37-39",
+          "title": "Évaluation des offres",
+          "titleAr": "تقييم العروض",
+          "description": "Critères d'évaluation technique et financière, notation sur 100 points",
+          "descriptionAr": "معايير التقييم الفني والمالي، التقييم من 100 نقطة"
+        },
+        {
+          "number": "39",
+          "title": "Prix anormalement bas",
+          "titleAr": "الأثمان المنخفضة بشكل غير طبيعي",
+          "description": "Détection des prix < -20% pour les travaux, < -25% pour les fournitures/services",
+          "descriptionAr": "الكشف عن الأثمان < -20% للأشغال، < -25% للتوريدات/الخدمات"
+        },
+        {
+          "number": "42",
+          "title": "Délai d'attribution",
+          "titleAr": "مهلة الترسية",
+          "description": "Délai minimum de 5 jours entre l'extrait du PV et la lettre d'attribution",
+          "descriptionAr": "مهلة دنيا من 5 أيام بين مقتطف المحضر ورسالة الترسية"
+        },
+        {
+          "number": "58",
+          "title": "Révision des prix",
+          "titleAr": "مراجعة الأسعار",
+          "description": "Révision des prix applicable si le délai dépasse 8 mois",
+          "descriptionAr": "مراجعة الأسعار مطبقة إذا تجاوزت المهلة 8 أشهر"
+        }
+      ],
+      "applicationDomains": ["tenders", "contracts", "payments"]
+    },
+    {
+      "id": "decret-2-16-344",
+      "name": "Décret n°2.16.344",
+      "nameAr": "المرسوم رقم 2.16.344",
+      "fullName": "Décret n°2.16.344 du 15 ramadan 1437 (21 juin 2016) relatif aux marchés des établissements et sociétés publics",
+      "fullNameAr": "المرسوم رقم 2.16.344 الصادر في 15 رمضان 1437 (21 يونيو 2016) المتعلق بصفقات المؤسسات والشركات العمومية",
+      "category": "etablissements_publics",
+      "year": 2016,
+      "summary": "Ce décret fixe les règles applicables aux marchés passés par les établissements et sociétés publics.",
+      "summaryAr": "يحدد هذا المرسوم القواعد المطبقة على الصفقات التي تبرمها المؤسسات والشركات العمومية.",
+      "keyArticles": [
+        {
+          "number": "8",
+          "title": "Programme provisionnel",
+          "titleAr": "البرنامج المؤقت",
+          "description": "Alignement des appels d'offres sur le programme provisionnel annuel",
+          "descriptionAr": "مطابقة طلبات العروض مع البرنامج المؤقت السنوي"
+        },
+        {
+          "number": "12",
+          "title": "Taux d'engagement",
+          "titleAr": "معدل الالتزام",
+          "description": "Suivi du taux d'engagement budgétaire et alertes à 80%",
+          "descriptionAr": "متابعة معدل الالتزام بالميزانية والتنبيهات عند 80%"
+        }
+      ],
+      "applicationDomains": ["tenders", "budget"]
+    },
+    {
+      "id": "loi-112-13",
+      "name": "Loi n°112.13",
+      "nameAr": "القانون رقم 112.13",
+      "fullName": "Loi n°112.13 relative aux sociétés de développement local",
+      "fullNameAr": "القانون رقم 112.13 المتعلق بشركات التنمية المحلية",
+      "category": "sdl",
+      "year": 2013,
+      "summary": "Cette loi définit le cadre juridique des sociétés de développement local (SDL) et leurs obligations en matière de gouvernance et de transparence.",
+      "summaryAr": "يحدد هذا القانون الإطار القانوني لشركات التنمية المحلية والتزاماتها في مجال الحوكمة والشفافية.",
+      "keyArticles": [
+        {
+          "number": "8",
+          "title": "Transparence financière",
+          "titleAr": "الشفافية المالية",
+          "description": "Obligations de transparence et de reporting financier",
+          "descriptionAr": "التزامات الشفافية والتقارير المالية"
+        }
+      ],
+      "applicationDomains": ["governance", "reporting"]
+    },
+    {
+      "id": "decret-2-01-2332",
+      "name": "Décret n°2.01.2332",
+      "nameAr": "المرسوم رقم 2.01.2332",
+      "fullName": "Décret n°2.01.2332 du 10 ramadan 1422 (26 novembre 2001) portant règlement de la comptabilité publique en matière d'exécution des marchés",
+      "fullNameAr": "المرسوم رقم 2.01.2332 الصادر في 10 رمضان 1422 (26 نوفمبر 2001) المتعلق بتنظيم المحاسبة العمومية في مجال تنفيذ الصفقات",
+      "category": "comptabilite",
+      "year": 2001,
+      "summary": "Ce décret fixe les règles comptables applicables à l'exécution des marchés publics.",
+      "summaryAr": "يحدد هذا المرسوم القواعد المحاسبية المطبقة على تنفيذ الصفقات العمومية.",
+      "keyArticles": [
+        {
+          "number": "10",
+          "title": "Numérotation des contrats",
+          "titleAr": "ترقيم العقود",
+          "description": "Unicité du numéro de contrat, pas de réutilisation",
+          "descriptionAr": "تفرد رقم العقد، عدم إعادة الاستخدام"
+        },
+        {
+          "number": "15",
+          "title": "Vérification bancaire",
+          "titleAr": "التحقق البنكي",
+          "description": "Conformité des coordonnées bancaires et RIB",
+          "descriptionAr": "مطابقة البيانات البنكية ورقم الحساب البنكي"
+        },
+        {
+          "number": "18",
+          "title": "Signatures",
+          "titleAr": "التوقيعات",
+          "description": "Vérification des signatures obligatoires",
+          "descriptionAr": "التحقق من التوقيعات الإلزامية"
+        },
+        {
+          "number": "22",
+          "title": "Pagination",
+          "titleAr": "ترقيم الصفحات",
+          "description": "Vérification de la pagination (dernière page - avant-dernière = nombre de pages BDDE)",
+          "descriptionAr": "التحقق من ترقيم الصفحات (الصفحة الأخيرة - ما قبل الأخيرة = عدد صفحات كشف التقديرات)"
+        },
+        {
+          "number": "25",
+          "title": "OS de démarrage",
+          "titleAr": "أمر خدمة البدء",
+          "description": "Signature de l'OS de démarrage dans les 30 jours suivant la notification d'approbation",
+          "descriptionAr": "توقيع أمر خدمة البدء خلال 30 يوماً بعد إشعار الموافقة"
+        },
+        {
+          "number": "28",
+          "title": "Augmentation de masse",
+          "titleAr": "زيادة الكتلة",
+          "description": "Taux d'augmentation de masse < 10%",
+          "descriptionAr": "معدل زيادة الكتلة < 10%"
+        },
+        {
+          "number": "35",
+          "title": "Caution définitive",
+          "titleAr": "الضمان النهائي",
+          "description": "Montant = 3% du contrat arrondi à 1 DH, délai: 20 jours pour travaux, 30 jours pour autres",
+          "descriptionAr": "المبلغ = 3% من العقد مقرب إلى 1 درهم، المهلة: 20 يوماً للأشغال، 30 يوماً لغيرها"
+        },
+        {
+          "number": "38",
+          "title": "TRC",
+          "titleAr": "التأمين من جميع المخاطر",
+          "description": "Couverture du démarrage à la réception provisoire",
+          "descriptionAr": "التغطية من البدء إلى الاستلام المؤقت"
+        },
+        {
+          "number": "40",
+          "title": "Attestations d'assurance",
+          "titleAr": "شهادات التأمين",
+          "description": "Vérification de la validité des assurances",
+          "descriptionAr": "التحقق من صلاحية التأمينات"
+        },
+        {
+          "number": "42",
+          "title": "Attestation d'enregistrement",
+          "titleAr": "شهادة التسجيل",
+          "description": "Vérification de l'enregistrement du contrat",
+          "descriptionAr": "التحقق من تسجيل العقد"
+        }
+      ],
+      "applicationDomains": ["contracts", "payments"]
+    },
+    {
+      "id": "loi-09-08",
+      "name": "Loi n°09-08",
+      "nameAr": "القانون رقم 09-08",
+      "fullName": "Loi n°09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel",
+      "fullNameAr": "القانون رقم 09-08 المتعلق بحماية الأشخاص الطبيعيين تجاه معالجة البيانات ذات الطابع الشخصي",
+      "category": "protection_donnees",
+      "year": 2007,
+      "summary": "Cette loi encadre le traitement des données personnelles et impose des obligations de protection et de confidentialité.",
+      "summaryAr": "يؤطر هذا القانون معالجة البيانات الشخصية ويفرض التزامات الحماية والسرية.",
+      "keyArticles": [
+        {
+          "number": "1-10",
+          "title": "Collecte et traitement",
+          "titleAr": "الجمع والمعالجة",
+          "description": "Conditions licites de collecte et de traitement des données personnelles",
+          "descriptionAr": "الشروط المشروعة لجمع ومعالجة البيانات الشخصية"
+        },
+        {
+          "number": "11-15",
+          "title": "Droits des personnes",
+          "titleAr": "حقوق الأشخاص",
+          "description": "Droits d'accès, de rectification et d'opposition",
+          "descriptionAr": "حقوق الوصول والتصحيح والاعتراض"
+        },
+        {
+          "number": "16-20",
+          "title": "Sécurité",
+          "titleAr": "الأمن",
+          "description": "Obligations de sécurité et de confidentialité",
+          "descriptionAr": "التزامات الأمن والسرية"
+        }
+      ],
+      "applicationDomains": ["data_protection", "privacy"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "marches_publics",
+      "name": "Marchés Publics",
+      "nameAr": "الصفقات العمومية"
+    },
+    {
+      "id": "etablissements_publics",
+      "name": "Établissements Publics",
+      "nameAr": "المؤسسات العمومية"
+    },
+    {
+      "id": "sdl",
+      "name": "Sociétés de Développement Local",
+      "nameAr": "شركات التنمية المحلية"
+    },
+    {
+      "id": "comptabilite",
+      "name": "Comptabilité Publique",
+      "nameAr": "المحاسبة العمومية"
+    },
+    {
+      "id": "protection_donnees",
+      "name": "Protection des Données",
+      "nameAr": "حماية البيانات"
+    }
+  ]
+}

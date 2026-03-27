@@ -152,8 +152,22 @@ function getActionData(action: string, userInput: string): unknown {
  */
 export function getQuickActions(language: Language = 'fr'): string[] {
   if (language === 'ar') {
-    return ['طلبات العروض', 'العقود', 'المدفوعات', 'التنبيهات', 'مساعدة'];
+    return [
+      'طلبات العروض',
+      'العقود',
+      'المدفوعات',
+      'التنبيهات',
+      'القوانين',
+      'مساعدة',
+    ];
   }
 
-  return ["Appels d'offres", 'Contrats', 'Paiements', 'Alertes', 'Aide'];
+  return [
+    "Appels d'offres",
+    'Contrats',
+    'Paiements',
+    'Alertes',
+    'Lois',
+    'Aide',
+  ];
 }

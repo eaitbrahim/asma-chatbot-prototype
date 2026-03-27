@@ -114,6 +114,46 @@
     },
     {
       "patterns": [
+        "lois",
+        "décrets",
+        "laws",
+        "références légales",
+        "législation",
+        "juridique",
+        "textes de loi",
+        "القوانين",
+        "المراسيم",
+        "التشريعات",
+        "المراجع القانونية",
+        "النصوص القانونية"
+      ],
+      "intent": "show_legal",
+      "action": "showLegal",
+      "responses": [
+        "Voici les références légales et les textes de loi qui régissent les marchés publics au Maroc:"
+      ],
+      "responsesAr": [
+        "إليك المراجع القانونية والنصوص التشريعية التي تنظم الصفقات العمومية في المغرب:"
+      ]
+    },
+    {
+      "patterns": [
+        "décret 2.22.431",
+        "décret marchés publics",
+        "المرسوم 2.22.431",
+        "مرسوم الصفقات العمومية"
+      ],
+      "intent": "decret_2_22_431",
+      "action": "showLegal",
+      "responses": [
+        "Le **Décret n°2.22.431** (2022) est le texte principal régissant les marchés publics au Maroc. Il établit les règles pour:\n• Les seuils de passation des marchés\n• Les procédures d'appel d'offres\n• La caution provisoire (max 2%)\n• Les délais de paiement (60 jours max)\n• Les critères de qualification des soumissionnaires"
+      ],
+      "responsesAr": [
+        "**المرسوم رقم 2.22.431** (2022) هو النص الرئيسي المنظم للصفقات العمومية في المغرب. يحدد قواعد:\n• عتبات إبرام الصفقات\n• إجراءات طلبات العروض\n• الضمان المؤقت (الأقصى 2%)\n• آجال الأداء (60 يوماً كحد أقصى)\n• معايير تأهيل المتنافسين"
+      ]
+    },
+    {
+      "patterns": [
         "aide",
         "help",
         "comment ça marche",
@@ -123,10 +163,10 @@
       ],
       "intent": "help",
       "responses": [
-        "Je peux vous aider avec:\n\n📋 **Appels d'offres**\n• Consulter les AO en cours\n• Vérifier les documents DCE\n• Suivre les vérifications\n\n📄 **Contrats**\n• Liste des contrats\n• Ordres de service\n• Dépôts et assurances\n\n💰 **Paiements**\n• Suivi des paiements\n• Vérification des dossiers\n\n🔔 **Alertes**\n• Notifications importantes\n• Rappels d'échéances\n\n**Commandes rapides:**\n• \"Appels d'offres\" - Voir les AO\n• \"Vérifier AO-2026-001\" - Vérifier un AO\n• \"Contrats\" - Voir les contrats\n• \"Paiements\" - Voir les paiements\n• \"Alertes\" - Voir les alertes"
+        "Je peux vous aider avec:\n\n📋 **Appels d'offres**\n• Consulter les AO en cours\n• Vérifier les documents DCE\n• Suivre les vérifications\n\n📄 **Contrats**\n• Liste des contrats\n• Ordres de service\n• Dépôts et assurances\n\n💰 **Paiements**\n• Suivi des paiements\n• Vérification des dossiers\n\n🔔 **Alertes**\n• Notifications importantes\n• Rappels d'échéances\n\n📚 **Références Légales**\n• Lois et décrets\n• Textes réglementaires\n\n**Commandes rapides:**\n• \"Appels d'offres\" - Voir les AO\n• \"Vérifier AO-2026-001\" - Vérifier un AO\n• \"Contrats\" - Voir les contrats\n• \"Paiements\" - Voir les paiements\n• \"Alertes\" - Voir les alertes\n• \"Lois\" - Voir les références légales"
       ],
       "responsesAr": [
-        "يمكنني مساعدتك في:\n\n📋 **طلبات العروض**\n• عرض طلبات العروض الحالية\n• التحقق من وثائق ملف طلب العروض\n• متابعة التحققات\n\n📄 **العقود**\n• قائمة العقود\n• أوامر الخدمة\n• الودائع والتأمينات\n\n💰 **المدفوعات**\n• متابعة المدفوعات\n• التحقق من الملفات\n\n🔔 **التنبيهات**\n• الإشعارات المهمة\n• تذكيرات المواعيد\n\n**أوامر سريعة:**\n• \"طلبات العروض\" - عرض طلبات العروض\n• \"التحقق من AO-2026-001\" - التحقق من طلب عروض\n• \"العقود\" - عرض العقود\n• \"المدفوعات\" - عرض المدفوعات\n• \"التنبيهات\" - عرض التنبيهات"
+        "يمكنني مساعدتك في:\n\n📋 **طلبات العروض**\n• عرض طلبات العروض الحالية\n• التحقق من وثائق ملف طلب العروض\n• متابعة التحققات\n\n📄 **العقود**\n• قائمة العقود\n• أوامر الخدمة\n• الودائع والتأمينات\n\n💰 **المدفوعات**\n• متابعة المدفوعات\n• التحقق من الملفات\n\n🔔 **التنبيهات**\n• الإشعارات المهمة\n• تذكيرات المواعيد\n\n📚 **المراجع القانونية**\n• القوانين والمراسيم\n• النصوص التنظيمية\n\n**أوامر سريعة:**\n• \"طلبات العروض\" - عرض طلبات العروض\n• \"التحقق من AO-2026-001\" - التحقق من طلب عروض\n• \"العقود\" - عرض العقود\n• \"المدفوعات\" - عرض المدفوعات\n• \"التنبيهات\" - عرض التنبيهات\n• \"القوانين\" - عرض المراجع القانونية"
       ]
     },
     {

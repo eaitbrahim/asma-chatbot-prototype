@@ -137,6 +137,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
           case 'showDashboard':
             setCurrentView('dashboard');
             break;
+          case 'showLegal':
+            setCurrentView('legal');
+            break;
           case 'showTenderVerification':
             if (
               response.data &&
