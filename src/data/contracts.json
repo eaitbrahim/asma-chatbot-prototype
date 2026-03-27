@@ -1,0 +1,166 @@
+{
+  "contracts": [
+    {
+      "id": "M-2026-001",
+      "tenderId": "AO-2026-001",
+      "object": "Construction d'un pont sur l'oued Souss",
+      "objectAr": "بناء جسر على واد سوس",
+      "contractor": "Société ABC Construction SARL",
+      "amount": 4800000,
+      "status": "en_execution",
+      "signatureDate": "2026-05-01",
+      "endDate": "2027-05-01",
+      "serviceOrders": [
+        {
+          "id": "OS-001",
+          "type": "approbation",
+          "date": "2026-05-02",
+          "status": "signed",
+          "signedBy": "Directeur Général"
+        },
+        {
+          "id": "OS-002",
+          "type": "notification",
+          "date": "2026-05-03",
+          "status": "signed",
+          "signedBy": "Directeur Général"
+        },
+        {
+          "id": "OS-003",
+          "type": "demarrage",
+          "date": "2026-05-10",
+          "status": "signed",
+          "signedBy": "Chef de Projet"
+        }
+      ],
+      "definitiveDeposit": {
+        "amount": 144000,
+        "rate": 3.0,
+        "date": "2026-05-20",
+        "status": "received"
+      },
+      "insuranceAttestations": [
+        {
+          "type": "TRC - Tous Risques Chantier",
+          "typeAr": "TRC - جميع مخاطر الموقع",
+          "validFrom": "2026-05-10",
+          "validTo": "2027-05-10",
+          "status": "valid"
+        },
+        {
+          "type": "Décennale",
+          "typeAr": "العشرية",
+          "validFrom": "2026-05-01",
+          "validTo": "2036-05-01",
+          "status": "valid"
+        }
+      ],
+      "registrationAttestation": {
+        "date": "2026-05-05",
+        "number": "ENR-2026-001"
+      }
+    },
+    {
+      "id": "M-2026-002",
+      "tenderId": "AO-2026-003",
+      "object": "Fourniture de matériel informatique",
+      "objectAr": "تزويد المعدات الإعلامية",
+      "contractor": "Tech Solutions Maroc SA",
+      "amount": 750000,
+      "status": "termine",
+      "signatureDate": "2026-03-15",
+      "endDate": "2026-04-15",
+      "serviceOrders": [
+        {
+          "id": "OS-010",
+          "type": "approbation",
+          "date": "2026-03-16",
+          "status": "signed",
+          "signedBy": "Directeur Général"
+        },
+        {
+          "id": "OS-011",
+          "type": "notification",
+          "date": "2026-03-17",
+          "status": "signed",
+          "signedBy": "Directeur Général"
+        },
+        {
+          "id": "OS-012",
+          "type": "demarrage",
+          "date": "2026-03-20",
+          "status": "signed",
+          "signedBy": "Chef de Projet"
+        },
+        {
+          "id": "OS-013",
+          "type": "arret",
+          "date": "2026-04-14",
+          "status": "signed",
+          "signedBy": "Chef de Projet"
+        }
+      ],
+      "definitiveDeposit": {
+        "amount": 22500,
+        "rate": 3.0,
+        "date": "2026-03-25",
+        "status": "received"
+      },
+      "insuranceAttestations": [],
+      "registrationAttestation": {
+        "date": "2026-03-18",
+        "number": "ENR-2026-015"
+      }
+    },
+    {
+      "id": "M-2026-003",
+      "tenderId": "AO-2026-002",
+      "object": "Aménagement urbain Zone Touristique Taghazout",
+      "objectAr": "تهيئة حضرية للمنطقة السياحية تاغازوت",
+      "contractor": "Consortium Atlas Développement",
+      "amount": 8200000,
+      "status": "en_execution",
+      "signatureDate": "2026-05-10",
+      "endDate": "2028-05-10",
+      "serviceOrders": [
+        {
+          "id": "OS-020",
+          "type": "approbation",
+          "date": "2026-05-11",
+          "status": "signed",
+          "signedBy": "Directeur Général"
+        },
+        {
+          "id": "OS-021",
+          "type": "notification",
+          "date": "2026-05-12",
+          "status": "signed",
+          "signedBy": "Directeur Général"
+        },
+        {
+          "id": "OS-022",
+          "type": "demarrage",
+          "date": "2026-05-20",
+          "status": "pending",
+          "signedBy": null
+        }
+      ],
+      "definitiveDeposit": {
+        "amount": 246000,
+        "rate": 3.0,
+        "date": null,
+        "status": "pending"
+      },
+      "insuranceAttestations": [
+        {
+          "type": "TRC - Tous Risques Chantier",
+          "typeAr": "TRC - جميع مخاطر الموقع",
+          "validFrom": "2026-05-20",
+          "validTo": "2028-05-20",
+          "status": "pending"
+        }
+      ],
+      "registrationAttestation": null
+    }
+  ]
+}

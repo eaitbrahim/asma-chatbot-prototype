@@ -1,0 +1,220 @@
+{
+  "tenders": [
+    {
+      "id": "AO-2026-001",
+      "object": "Construction d'un pont sur l'oued Souss",
+      "objectAr": "بناء جسر على واد سوس",
+      "status": "en_cours",
+      "estimateAmount": 5000000,
+      "provisionalDeposit": 100000,
+      "depositRate": 2.0,
+      "publicationDate": "2026-03-15",
+      "openingDate": "2026-04-15",
+      "siteVisitDate": "2026-04-01",
+      "lots": [
+        {
+          "number": 1,
+          "description": "Génie civil - Fondations et piliers",
+          "estimate": 3000000
+        },
+        {
+          "number": 2,
+          "description": "Équipements et finitions",
+          "estimate": 2000000
+        }
+      ],
+      "dceDocuments": [
+        {
+          "type": "RC",
+          "status": "complete",
+          "validatedAt": "2026-03-10",
+          "validatedBy": "M. Alami"
+        },
+        {
+          "type": "CPS",
+          "status": "complete",
+          "validatedAt": "2026-03-10",
+          "validatedBy": "M. Alami"
+        },
+        {
+          "type": "BDDE",
+          "status": "complete",
+          "validatedAt": "2026-03-11",
+          "validatedBy": "Mme. Benani"
+        },
+        { "type": "Estime_Confidentiel", "status": "pending" },
+        { "type": "Avis_AO", "status": "complete", "validatedAt": "2026-03-14" }
+      ],
+      "verificationChecklist": {
+        "inProvisionalProgram": true,
+        "budgetAvailable": true,
+        "dceComplete": false,
+        "noDuplicateNumber": true,
+        "objectMatches": true,
+        "depositRateValid": true,
+        "publicationDatesValid": true,
+        "siteVisitScheduled": true
+      },
+      "alerts": [
+        {
+          "id": "ALT-AO1-001",
+          "type": "reminder",
+          "message": "J-6: Ouverture des plis dans 6 jours",
+          "date": "2026-04-09",
+          "acknowledged": false
+        },
+        {
+          "id": "ALT-AO1-002",
+          "type": "info",
+          "message": "Visite de site programmée le 01/04/2026",
+          "date": "2026-03-25",
+          "acknowledged": true
+        }
+      ],
+      "createdAt": "2026-03-01",
+      "updatedAt": "2026-03-20"
+    },
+    {
+      "id": "AO-2026-002",
+      "object": "Aménagement urbain Zone Touristique Taghazout",
+      "objectAr": "تهيئة حضرية للمنطقة السياحية تاغازوت",
+      "status": "en_cours",
+      "estimateAmount": 8500000,
+      "provisionalDeposit": 170000,
+      "depositRate": 2.0,
+      "publicationDate": "2026-03-20",
+      "openingDate": "2026-04-20",
+      "lots": [
+        {
+          "number": 1,
+          "description": "Voirie et réseaux divers",
+          "estimate": 4000000
+        },
+        { "number": 2, "description": "Éclairage public", "estimate": 2500000 },
+        { "number": 3, "description": "Espaces verts", "estimate": 2000000 }
+      ],
+      "dceDocuments": [
+        { "type": "RC", "status": "complete", "validatedAt": "2026-03-15" },
+        { "type": "CPS", "status": "complete", "validatedAt": "2026-03-15" },
+        { "type": "BDDE", "status": "complete", "validatedAt": "2026-03-16" },
+        {
+          "type": "Estime_Confidentiel",
+          "status": "complete",
+          "validatedAt": "2026-03-17"
+        },
+        { "type": "Avis_AO", "status": "complete", "validatedAt": "2026-03-19" }
+      ],
+      "verificationChecklist": {
+        "inProvisionalProgram": true,
+        "budgetAvailable": true,
+        "dceComplete": true,
+        "noDuplicateNumber": true,
+        "objectMatches": true,
+        "depositRateValid": true,
+        "publicationDatesValid": true,
+        "siteVisitScheduled": false
+      },
+      "alerts": [],
+      "createdAt": "2026-03-05",
+      "updatedAt": "2026-03-20"
+    },
+    {
+      "id": "AO-2026-003",
+      "object": "Fourniture de matériel informatique",
+      "objectAr": "تزويد المعدات الإعلامية",
+      "status": "cloture",
+      "estimateAmount": 800000,
+      "provisionalDeposit": 16000,
+      "depositRate": 2.0,
+      "publicationDate": "2026-02-01",
+      "openingDate": "2026-02-28",
+      "lots": [
+        {
+          "number": 1,
+          "description": "Ordinateurs et périphériques",
+          "estimate": 500000
+        },
+        {
+          "number": 2,
+          "description": "Serveurs et équipements réseau",
+          "estimate": 300000
+        }
+      ],
+      "dceDocuments": [
+        { "type": "RC", "status": "complete", "validatedAt": "2026-01-25" },
+        { "type": "CPS", "status": "complete", "validatedAt": "2026-01-25" },
+        { "type": "BDDE", "status": "complete", "validatedAt": "2026-01-26" },
+        {
+          "type": "Estime_Confidentiel",
+          "status": "complete",
+          "validatedAt": "2026-01-27"
+        },
+        { "type": "Avis_AO", "status": "complete", "validatedAt": "2026-01-30" }
+      ],
+      "verificationChecklist": {
+        "inProvisionalProgram": true,
+        "budgetAvailable": true,
+        "dceComplete": true,
+        "noDuplicateNumber": true,
+        "objectMatches": true,
+        "depositRateValid": true,
+        "publicationDatesValid": true,
+        "siteVisitScheduled": false
+      },
+      "alerts": [],
+      "createdAt": "2026-01-15",
+      "updatedAt": "2026-03-01"
+    },
+    {
+      "id": "AO-2026-004",
+      "object": "Travaux de rénovation du siège ASMA",
+      "objectAr": "أشغال تجديد مقر ASMA",
+      "status": "en_cours",
+      "estimateAmount": 1200000,
+      "provisionalDeposit": 25000,
+      "depositRate": 2.08,
+      "publicationDate": "2026-03-25",
+      "openingDate": "2026-04-25",
+      "lots": [
+        {
+          "number": 1,
+          "description": "Rénovation intérieure",
+          "estimate": 800000
+        },
+        {
+          "number": 2,
+          "description": "Climatisation et ventilation",
+          "estimate": 400000
+        }
+      ],
+      "dceDocuments": [
+        { "type": "RC", "status": "pending" },
+        { "type": "CPS", "status": "pending" },
+        { "type": "BDDE", "status": "pending" },
+        { "type": "Estime_Confidentiel", "status": "pending" },
+        { "type": "Avis_AO", "status": "pending" }
+      ],
+      "verificationChecklist": {
+        "inProvisionalProgram": true,
+        "budgetAvailable": true,
+        "dceComplete": false,
+        "noDuplicateNumber": true,
+        "objectMatches": true,
+        "depositRateValid": false,
+        "publicationDatesValid": true,
+        "siteVisitScheduled": false
+      },
+      "alerts": [
+        {
+          "id": "ALT-AO4-001",
+          "type": "warning",
+          "message": "Dépassement du taux de caution provisoire (> 2%)",
+          "date": "2026-03-25",
+          "acknowledged": false
+        }
+      ],
+      "createdAt": "2026-03-20",
+      "updatedAt": "2026-03-25"
+    }
+  ]
+}

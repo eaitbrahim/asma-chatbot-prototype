@@ -1,0 +1,151 @@
+{
+  "payments": [
+    {
+      "id": "P-2026-001",
+      "contractId": "M-2026-001",
+      "type": "acompte",
+      "amount": 960000,
+      "status": "en_cours",
+      "requestDate": "2026-06-15",
+      "dueDate": "2026-07-15",
+      "documents": [
+        {
+          "type": "Facture",
+          "typeAr": "فاتورة",
+          "status": "received",
+          "receivedAt": "2026-06-14"
+        },
+        {
+          "type": "Décompte",
+          "typeAr": "كشف",
+          "status": "received",
+          "receivedAt": "2026-06-14"
+        },
+        {
+          "type": "PV de réception",
+          "typeAr": "محضر استلام",
+          "status": "pending"
+        },
+        {
+          "type": "Attestation CNSS",
+          "typeAr": "شهادة CNSS",
+          "status": "received",
+          "receivedAt": "2026-06-10"
+        },
+        {
+          "type": "Attestation fiscale",
+          "typeAr": "شهادة جبائية",
+          "status": "received",
+          "receivedAt": "2026-06-10"
+        }
+      ],
+      "verificationChecklist": {
+        "allDocumentsReceived": false,
+        "amountsMatchContract": true,
+        "signaturesValid": true,
+        "cnssUpToDate": true,
+        "taxesUpToDate": true
+      },
+      "approvedBy": null,
+      "approvedAt": null
+    },
+    {
+      "id": "P-2026-002",
+      "contractId": "M-2026-002",
+      "type": "solde",
+      "amount": 727500,
+      "status": "paye",
+      "requestDate": "2026-04-10",
+      "dueDate": "2026-04-20",
+      "documents": [
+        {
+          "type": "Facture",
+          "typeAr": "فاتورة",
+          "status": "received",
+          "receivedAt": "2026-04-08"
+        },
+        {
+          "type": "Décompte",
+          "typeAr": "كشف",
+          "status": "received",
+          "receivedAt": "2026-04-08"
+        },
+        {
+          "type": "PV de réception définitive",
+          "typeAr": "محضر الاستلام النهائي",
+          "status": "received",
+          "receivedAt": "2026-04-09"
+        },
+        {
+          "type": "Attestation CNSS",
+          "typeAr": "شهادة CNSS",
+          "status": "received",
+          "receivedAt": "2026-04-05"
+        },
+        {
+          "type": "Attestation fiscale",
+          "typeAr": "شهادة جبائية",
+          "status": "received",
+          "receivedAt": "2026-04-05"
+        },
+        {
+          "type": "Mainlevée",
+          "typeAr": "تخلي",
+          "status": "received",
+          "receivedAt": "2026-04-09"
+        }
+      ],
+      "verificationChecklist": {
+        "allDocumentsReceived": true,
+        "amountsMatchContract": true,
+        "signaturesValid": true,
+        "cnssUpToDate": true,
+        "taxesUpToDate": true
+      },
+      "approvedBy": "M. Alami",
+      "approvedAt": "2026-04-15"
+    },
+    {
+      "id": "P-2026-003",
+      "contractId": "M-2026-003",
+      "type": "acompte",
+      "amount": 1640000,
+      "status": "en_cours",
+      "requestDate": "2026-06-20",
+      "dueDate": "2026-07-20",
+      "documents": [
+        {
+          "type": "Facture",
+          "typeAr": "فاتورة",
+          "status": "received",
+          "receivedAt": "2026-06-18"
+        },
+        { "type": "Décompte", "typeAr": "كشف", "status": "pending" },
+        {
+          "type": "PV d'avancement",
+          "typeAr": "محضر التقدم",
+          "status": "pending"
+        },
+        {
+          "type": "Attestation CNSS",
+          "typeAr": "شهادة CNSS",
+          "status": "pending"
+        },
+        {
+          "type": "Attestation fiscale",
+          "typeAr": "شهادة جبائية",
+          "status": "pending"
+        }
+      ],
+      "verificationChecklist": {
+        "allDocumentsReceived": false,
+        "amountsMatchContract": true,
+        "signaturesValid": false,
+        "cnssUpToDate": false,
+        "taxesUpToDate": false
+      },
+      "approvedBy": null,
+      "approvedAt": null
+    }
+  ]
+}

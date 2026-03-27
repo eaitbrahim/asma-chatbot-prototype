@@ -1,0 +1,190 @@
+{
+  "intents": [
+    {
+      "patterns": [
+        "bonjour",
+        "salut",
+        "hello",
+        "bonsoir",
+        "السلام عليكم",
+        "مرحبا",
+        "صباح الخير",
+        "مساء الخير"
+      ],
+      "intent": "greeting",
+      "responses": [
+        "Bonjour! Je suis l'assistant ASMA. Comment puis-je vous aider aujourd'hui?",
+        "Bienvenue! Je suis ici pour vous aider avec les appels d'offres, contrats et paiements. Que souhaitez-vous faire?"
+      ],
+      "responsesAr": [
+        "مرحباً! أنا مساعد ASMA. كيف يمكنني مساعدتك اليوم؟",
+        "أهلاً بك! أنا هنا لمساعدتك في طلبات العروض والعقود والمدفوعات. ماذا تريد أن تفعل؟"
+      ]
+    },
+    {
+      "patterns": [
+        "appels d'offres",
+        "ao",
+        "tender",
+        "tenders",
+        "appel offre",
+        "طلبات العروض",
+        "طلبات عروض",
+        "مناقصات"
+      ],
+      "intent": "list_tenders",
+      "action": "showTenders",
+      "responses": ["Voici la liste des appels d'offres en cours:"],
+      "responsesAr": ["إليك قائمة طلبات العروض الحالية:"]
+    },
+    {
+      "patterns": [
+        "vérifier ao",
+        "vérification ao",
+        "check tender",
+        "vérifier appel offre",
+        "التحقق من طلب العروض",
+        "فحص المناقصة",
+        "التحقق من المناقصة"
+      ],
+      "intent": "verify_tender",
+      "action": "showTenderVerification",
+      "responses": [
+        "Je vais vérifier cet appel d'offres. Veuillez spécifier le numéro de l'AO (ex: AO-2026-001)."
+      ],
+      "responsesAr": [
+        "سأتحقق من طلب العروض هذا. يرجى تحديد رقم طلب العروض (مثال: AO-2026-001)."
+      ]
+    },
+    {
+      "patterns": [
+        "contrats",
+        "contracts",
+        "marchés",
+        "العقود",
+        "عقود",
+        "التعاقدات"
+      ],
+      "intent": "list_contracts",
+      "action": "showContracts",
+      "responses": ["Voici la liste des contrats:"],
+      "responsesAr": ["إليك قائمة العقود:"]
+    },
+    {
+      "patterns": [
+        "paiements",
+        "payments",
+        "règlements",
+        "المدفوعات",
+        "دفعات",
+        "سداد"
+      ],
+      "intent": "list_payments",
+      "action": "showPayments",
+      "responses": ["Voici les paiements en cours:"],
+      "responsesAr": ["إليك المدفوعات الحالية:"]
+    },
+    {
+      "patterns": [
+        "alertes",
+        "alerts",
+        "notifications",
+        "التنبيهات",
+        "إشعارات",
+        "إنذارات"
+      ],
+      "intent": "show_alerts",
+      "action": "showAlerts",
+      "responses": ["Voici vos alertes et notifications:"],
+      "responsesAr": ["إليك تنبيهاتك وإشعاراتك:"]
+    },
+    {
+      "patterns": [
+        "tableau de bord",
+        "dashboard",
+        "accueil",
+        "لوحة القيادة",
+        "الرئيسية",
+        "الصفحة الرئيسية"
+      ],
+      "intent": "show_dashboard",
+      "action": "showDashboard",
+      "responses": ["Voici le tableau de bord:"],
+      "responsesAr": ["إليك لوحة القيادة:"]
+    },
+    {
+      "patterns": [
+        "aide",
+        "help",
+        "comment ça marche",
+        "مساعدة",
+        "كيف يعمل",
+        "ساعدني"
+      ],
+      "intent": "help",
+      "responses": [
+        "Je peux vous aider avec:\n\n📋 **Appels d'offres**\n• Consulter les AO en cours\n• Vérifier les documents DCE\n• Suivre les vérifications\n\n📄 **Contrats**\n• Liste des contrats\n• Ordres de service\n• Dépôts et assurances\n\n💰 **Paiements**\n• Suivi des paiements\n• Vérification des dossiers\n\n🔔 **Alertes**\n• Notifications importantes\n• Rappels d'échéances\n\n**Commandes rapides:**\n• \"Appels d'offres\" - Voir les AO\n• \"Vérifier AO-2026-001\" - Vérifier un AO\n• \"Contrats\" - Voir les contrats\n• \"Paiements\" - Voir les paiements\n• \"Alertes\" - Voir les alertes"
+      ],
+      "responsesAr": [
+        "يمكنني مساعدتك في:\n\n📋 **طلبات العروض**\n• عرض طلبات العروض الحالية\n• التحقق من وثائق ملف طلب العروض\n• متابعة التحققات\n\n📄 **العقود**\n• قائمة العقود\n• أوامر الخدمة\n• الودائع والتأمينات\n\n💰 **المدفوعات**\n• متابعة المدفوعات\n• التحقق من الملفات\n\n🔔 **التنبيهات**\n• الإشعارات المهمة\n• تذكيرات المواعيد\n\n**أوامر سريعة:**\n• \"طلبات العروض\" - عرض طلبات العروض\n• \"التحقق من AO-2026-001\" - التحقق من طلب عروض\n• \"العقود\" - عرض العقود\n• \"المدفوعات\" - عرض المدفوعات\n• \"التنبيهات\" - عرض التنبيهات"
+      ]
+    },
+    {
+      "patterns": [
+        "statistiques",
+        "stats",
+        "chiffres",
+        "الإحصائيات",
+        "الأرقام",
+        "إحصاءات"
+      ],
+      "intent": "show_stats",
+      "action": "showDashboard",
+      "responses": ["Voici les statistiques actuelles:"],
+      "responsesAr": ["إليك الإحصائيات الحالية:"]
+    },
+    {
+      "patterns": ["merci", "thanks", "شكرا", "شكراً"],
+      "intent": "thanks",
+      "responses": [
+        "Je vous en prie! Y a-t-il autre chose que je puisse faire pour vous?",
+        "Avec plaisir! N'hésitez pas si vous avez d'autres questions."
+      ],
+      "responsesAr": [
+        "على الرحب والسعة! هل هناك شيء آخر يمكنني مساعدتك فيه؟",
+        "بسرور! لا تتردد إذا كان لديك أسئلة أخرى."
+      ]
+    },
+    {
+      "patterns": [
+        "au revoir",
+        "bye",
+        "goodbye",
+        "مع السلامة",
+        "وداعا",
+        "إلى اللقاء"
+      ],
+      "intent": "goodbye",
+      "responses": [
+        "Au revoir! À bientôt!",
+        "Bonne journée! N'hésitez pas à revenir si vous avez besoin d'aide."
+      ],
+      "responsesAr": [
+        "مع السلامة! إلى اللقاء!",
+        "يوماً سعيداً! لا تتردد في العودة إذا احتجت مساعدة."
+      ]
+    }
+  ],
+  "fallback": {
+    "responses": [
+      "Je ne suis pas sûr de comprendre votre demande. Pouvez-vous reformuler?",
+      "Désolé, je n'ai pas saisi votre question. Tapez 'aide' pour voir ce que je peux faire.",
+      "Je ne comprends pas cette requête. Voulez-vous voir les appels d'offres, contrats ou paiements?"
+    ],
+    "responsesAr": [
+      "لست متأكداً من فهم طلبك. هل يمكنك إعادة صياغته؟",
+      "عذراً، لم أفهم سؤالك. اكتب 'مساعدة' لمعرفة ما يمكنني فعله.",
+      "لا أفهم هذا الطلب. هل تريد رؤية طلبات العروض أو العقود أو المدفوعات؟"
+    ]
+  }
+}

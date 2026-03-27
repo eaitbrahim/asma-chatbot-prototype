@@ -1,0 +1,102 @@
+{
+  "alerts": [
+    {
+      "id": "ALT-001",
+      "type": "budget",
+      "severity": "warning",
+      "title": "Taux d'engagement à 80%",
+      "titleAr": "معدل الالتزام 80%",
+      "message": "Le budget du programme provisionnel atteint 80% d'engagement. Veuillez planifier les prochains appels d'offres.",
+      "messageAr": "وصل معدل الالتزام بالميزانية البرنامج المؤقت إلى 80%. يرجى التخطيط لطلبات العروض القادمة.",
+      "date": "2026-03-20T10:00:00",
+      "read": false,
+      "actionRequired": true,
+      "relatedEntity": null,
+      "relatedEntityType": null
+    },
+    {
+      "id": "ALT-002",
+      "type": "reminder",
+      "severity": "info",
+      "title": "J-6: Ouverture des plis AO-2026-001",
+      "titleAr": "J-6: فتح الأظرفة AO-2026-001",
+      "message": "Rappel: Ouverture des plis pour l'appel d'offres AO-2026-001 (Construction pont Souss) dans 6 jours.",
+      "messageAr": "تذكير: فتح الأظرفة لطلب العروض AO-2026-001 (بناء جسر سوس) خلال 6 أيام.",
+      "date": "2026-04-09T08:00:00",
+      "read": false,
+      "actionRequired": false,
+      "relatedEntity": "AO-2026-001",
+      "relatedEntityType": "tender"
+    },
+    {
+      "id": "ALT-003",
+      "type": "compliance",
+      "severity": "error",
+      "title": "Dépassement de caution provisoire",
+      "titleAr": "تجاوز الضمان المؤقت",
+      "message": "L'appel d'offres AO-2026-004 dépasse le taux de caution provisoire autorisé (2.08% > 2%).",
+      "messageAr": "طلب العروض AO-2026-004 يتجاوز معدل الضمان المؤقت المسموح به (2.08% > 2%).",
+      "date": "2026-03-25T14:30:00",
+      "read": true,
+      "actionRequired": true,
+      "relatedEntity": "AO-2026-004",
+      "relatedEntityType": "tender"
+    },
+    {
+      "id": "ALT-004",
+      "type": "document",
+      "severity": "warning",
+      "title": "DCE incomplet - AO-2026-001",
+      "titleAr": "ملف طلب العروض غير مكتمل - AO-2026-001",
+      "message": "L'estimé confidentiel n'a pas encore été validé pour l'appel d'offres AO-2026-001.",
+      "messageAr": "لم يتم بعد التحقق من التقدير السري لطلب العروض AO-2026-001.",
+      "date": "2026-03-22T09:00:00",
+      "read": false,
+      "actionRequired": true,
+      "relatedEntity": "AO-2026-001",
+      "relatedEntityType": "tender"
+    },
+    {
+      "id": "ALT-005",
+      "type": "payment",
+      "severity": "warning",
+      "title": "Documents manquants - Paiement P-2026-001",
+      "titleAr": "وثائق ناقصة - الدفعة P-2026-001",
+      "message": "Le PV de réception est manquant pour le paiement P-2026-001 (Contrat M-2026-001).",
+      "messageAr": "محضر الاستلام مفقود للدفعة P-2026-001 (العقد M-2026-001).",
+      "date": "2026-06-16T11:00:00",
+      "read": false,
+      "actionRequired": true,
+      "relatedEntity": "P-2026-001",
+      "relatedEntityType": "payment"
+    },
+    {
+      "id": "ALT-006",
+      "type": "reminder",
+      "severity": "info",
+      "title": "Caution définitive en attente - M-2026-003",
+      "titleAr": "الضمان النهائي معلق - M-2026-003",
+      "message": "La caution définitive (246,000 MAD) n'a pas été reçue pour le contrat M-2026-003.",
+      "messageAr": "لم يتم استلام الضمان النهائي (246,000 درهم) للعقد M-2026-003.",
+      "date": "2026-06-10T16:00:00",
+      "read": false,
+      "actionRequired": true,
+      "relatedEntity": "M-2026-003",
+      "relatedEntityType": "contract"
+    },
+    {
+      "id": "ALT-007",
+      "type": "reminder",
+      "severity": "info",
+      "title": "Visite de site - AO-2026-001",
+      "titleAr": "زيارة الموقع - AO-2026-001",
+      "message": "Visite de site programmée le 01/04/2026 à 10h00 pour l'AO-2026-001.",
+      "messageAr": "زيارة الموقع المجدولة في 01/04/2026 الساعة 10:00 صباحاً لـ AO-2026-001.",
+      "date": "2026-03-28T08:00:00",
+      "read": true,
+      "actionRequired": false,
+      "relatedEntity": "AO-2026-001",
+      "relatedEntityType": "tender"
+    }
+  ]
+}
